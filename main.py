@@ -14,8 +14,7 @@ TARGET_PRICE = 1650.00
 INZO_TOKEN = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2NGE2QHlhaG9vLmNvbSIsImlhdCI6MTc4NzcyODE2MCwiZXhwIjoxNzg3NzcxMzYwfQ.JZhwohKpLru4WWOhMvFLJSClZ5oTgiL2fXQeitBngBn9w2dr98sZ8IlTdxodwYJn-SJrMjfTHlI_r7OSO77IBA"
 
 # القائمة الخاصة بأكواد وأسماء طرق الدفع المراد مراقبتها
-TARGET_PAYMENT_IDS = [9, 103, "9", "103"]
-TARGET_KEYWORDS = ["super", "qi", "rafidain"]
+TARGET_PAYMENT_IDS = ["9", "103"]
 # ======================================================
 
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
