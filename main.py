@@ -11,7 +11,7 @@ CHAT_ID = "7696437784"
 TARGET_PRICE = 1650.00
 
 # وضع التوكن مباشرة هنا كقيمة نصية صريحة
-INZO_TOKEN = "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2NGE2QHlhaG9vLmNvbSIsImlhdCI6MTc4NzY4MjU5MCwiZXhwIjoxNzg3NzI1NzkwfQ.GoQomsS6_GV3nQLpiBfLzOphq7A0ToyoDEyXCHNRKZ9iGgIWAFDxohXSeCkejSqW7Rb6VO2tIy1WFSGJWYUCng"
+INZO_TOKEN = eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2NGE2QHlhaG9vLmNvbSIsImlhdCI6MTc4NzcyODE2MCwiZXhwIjoxNzg3NzcxMzYwfQ.JZhwohKpLru4WWOhMvFLJSClZ5oTgiL2fXQeitBngBn9w2dr98sZ8IlTdxodwYJn-SJrMjfTHlI_r7OSO77IBA
 
 # القائمة الخاصة بأكواد وأسماء طرق الدفع المراد مراقبتها
 TARGET_PAYMENT_IDS = [9, 103, "9", "103"]
