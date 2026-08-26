@@ -160,7 +160,10 @@ def monitor_inzo():
                     bot.send_message(CHAT_ID, "❌ ⚠️ تنبيه أمني:\nتوكن INZO منتهي الصلاحية!\n\nتم إيقاف المراقبة تلقائياً. يرجى تحديث التوكن.", parse_mode="Markdown", reply_markup=main_menu())
                 
             except Exception as e:
-                except Exception as e:
+              except Exception as e:
+        print(f"خطأ في حلقة المراقبة: {e}")
+
+    time.sleep(30)
     print(f"خطأ في حلقة المراقبة: {e}"
                 
         time.sleep(30) 
