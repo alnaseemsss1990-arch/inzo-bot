@@ -8,7 +8,7 @@ import os
 # ================= الإعدادات الأساسية =================
 TELEGRAM_BOT_TOKEN = "8833837598:AAFlqM4XCkJsfr4Rg2EN-WSZzXkg8Mh7aAQ"
 CHAT_ID = "7696437784"
-TARGET_PRICE = 1650.00
+TARGET_PRICE = 20000.000
 
 # وضع التوكن مباشرة هنا كقيمة نصية صريحة
 INZO_TOKEN = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2NGE2QHlhaG9vLmNvbSIsImlhdCI6MTc4NzcyODE2MCwiZXhwIjoxNzg3NzcxMzYwfQ.JZhwohKpLru4WWOhMvFLJSClZ5oTgiL2fXQeitBngBn9w2dr98sZ8IlTdxodwYJn-SJrMjfTHlI_r7OSO77IBA"
@@ -160,7 +160,8 @@ def monitor_inzo():
                     bot.send_message(CHAT_ID, "❌ ⚠️ تنبيه أمني:\nتوكن INZO منتهي الصلاحية!\n\nتم إيقاف المراقبة تلقائياً. يرجى تحديث التوكن.", parse_mode="Markdown", reply_markup=main_menu())
                 
             except Exception as e:
-                pass
+                except Exception as e:
+    print(f"خطأ في حلقة المراقبة: {e}"
                 
         time.sleep(30) 
 
