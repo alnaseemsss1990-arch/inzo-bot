@@ -141,7 +141,7 @@ def monitor_inzo():
                                     is_valid_method = True
                                     break
                         
-                        if is_valid_method and price > 0 and price <= TARGET_PRICE and available_qty > 0:
+
                             if notified_offers.get(merchant_name) != price:
                                 current_time = time.strftime('%I:%M %p') 
                                 alert_msg = (
